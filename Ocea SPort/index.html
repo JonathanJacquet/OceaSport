@@ -14,6 +14,9 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="font/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  
 </head>
 
 <body>
@@ -21,8 +24,238 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+  <div id="aside">
+    <!-- LINK RS-->
+    <aside id="aside_left">
+      <ul>
+        <li><a href="http://www.facebook.com/oceaclub"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.facebook.com/oceaclub"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.oceaclub.com/acces.php"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+      </ul>
+    </aside>
+    <!-- FORM-->
+    <aside id="aside_right">
+      <form method="post" action="">
+        <p>
+          <label for="categorie">Réserver : </label>
+          <select name="categorie" id="categorie">
+            <option value="atelier">une séance d'atelier</option>
+            <option value="bad">un cours de badminton</option>
+            <option value="UV">une séance U.V.</option>
+          </select>
+          <button type="submit">GO</button>
+        </p>
+      </form>
+    </aside>
+  </div>
+
+  <!-- 
+  ~~~~~~~~~~~~~~~~~~| Star Header|~~~~~~~~~~~~~~~~~~~~~
+  -->
+  <div>
+    <div id="contener_nav">
+      <nav>
+      <ul>
+        <li><a href="http://www.oceaclub.com/"><img src="img/ocea.png" alt=""></a></li>
+        <li><a href="http://www.oceaclub.com/#oceasport">SPORT</a></li>
+        <li><a href="http://www.oceaclub.com/#oceaesth">ESTHETIQUE</a></li>
+        <li><a href="http://www.oceaclub.com/#oceasun">CENTRE U.V.</a></li>
+        <li><a href="http://www.oceaclub.com/contact.php">NOUS CONTACTER</a></li>
+      </ul>
+      </nav>
+    </div>
+
+ <!-- 
+  ~~~~~~~~~~~~~~~~~~| End Header|~~~~~~~~~~~~~~~~~~~~~
+  -->
+
+    <!-- BACKGROUND IMAGE-->
+    <div>
+      <div id="background_image">
+        <img src="img/shbam.jpg" alt="" width="100%" height="1200">
+      </div>
+        <!-- OPACITY BOTTOM-->
+        <div id="text_image">
+          <p>« Nous sommes Ocea. Nous représentons fièrement la pratique du fitness sur Lille et ses alentours.<br>
+              Le sport est notre métier mais c'est avant tout notre passion. Nous sommes un grand club - mais à taille humaine - où chacun des membres de notre grande famille se met au service de notre lutte contre la sédentarité.<br>
+              Vous satisfaire est notre priorité de tous les jours. Nous ne vous proposons pas de cours sur écran mais plus de 100 cours collectifs par semaine encadrés par des éducateurs sportifs diplômés.<br>
+              Nous connaissons les prénoms de nos adhérents. Nous sommes des passionnés. Nous sommes Ocea. » </p>
+          <p id="Welcome">Bienvenue !</p>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- 
+  ~~~~~~~~~~~~~~~~~~| Star Main|~~~~~~~~~~~~~~~~~~~~~
+  -->
+<main>
+  <!--CACRACTERISTIQUES OCEA SPORT-->
+  <section id="ocea_pink">
+    <h1>Ocea Sport</h1>
+    <div id="contener_oceaPink">
+      <div>
+        <i class="fa fa-5x"><b>7/7</b></i>
+        <p>Un club ouvert 7 jours sur 7</p>
+      </div>
+      <div>
+        <i class="fa fa-list-alt fa-5x"></i>
+        <p>Plus de 100 cours collectifs<br> chaque semaine</p>
+      </div>
+      <div>
+        <i class="fa fa-bicycle fa-5x"></i>
+        <p>6 salles dont un studio RPM avec<br> plus de 70 vélos</p>
+      </div>
+      <div>
+        <i class="fa fa-arrows-h fa-5x"></i>
+        <p>7000 m² d'infrastructures</p>
+      </div>
+    </div>
+    <a><button id="button_test">TESTEZ-NOUS !</button></a>
+  </section>
+  <section class="bloc_video">
+    <div id ="contrat">
+      <h2>Notre contrat</h2>
+      <p>Pas de sentiment d'abandon à Ocea ! Nos nombreux éducateurs sportifs, tous diplômés d'état, sont à votre disposition pour atteindre vos objectifs, vous<br> conseiller et vous guider tout au long de votre entrainement.</p>
+    </div>
+      <!-- VIDEO-->
+    <div>
+        <iframe src="https://vimeo.com/272767022" width="640" height="360"></iframe>
+    </div>
+  </section>
+  <!--INFOS-->
+  <section id="prestation">
+    <div id="contener_prestation">
+      <article>
+        <header>
+          <h3>Le planning</h3>
+        </header>
+        <img src="img/planning.jpg" alt="" width="262.5" height="138.6">
+        <p>Plus de 100 cours collectifs à votre<br> disposition </p>
+        <a href="http://www.oceaclub.com/planning.php" id="button_white">LE PLANNING</a>
+      </article>
+      <article>
+        <header>
+          <h3>Les cours</h3>
+        </header>
+        <img src="img/cours.jpg" alt="" width="272.5" height="138.6">
+        <p>20 types de cours différents et ce qui<br> se fait de meilleur au monde </p>
+        <a href="http://www.oceaclub.com/cours.php" id="button_white">LES COURS</a>
+      </article>
+      <article>
+        <header>
+          <h3>Les tarifs</h3>
+        </header>
+        <img src="img/tarifs.jpg" alt="" width="262.5" height="138.6">
+        <p>Nous avons forcément le meilleur<br> tarif adapté à vos ambitions </p>
+        <a href="http://www.oceaclub.com/tarifs.php"id="button_white" >LES TARIFS</a>
+      </article>
+      <article>
+        <header>
+          <h3>L'offre découverte</h3>
+        </header>
+        <img src="img/decouverte.jpg" alt="" width="272.5" height="138.6">
+        <p>A Ocea, votre première séance vous<br> est offerte </p>
+        <a href="http://www.oceaclub.com/decouverte.php" id="button_white">VOIR L'OFFRE</a>
+      </article>
+    </div>
+  </section>
+  <div class="hour_add">
+    <!-- HOUR-->
+    <section>
+      <h3>Les horaires</h3>
+      <ul>
+        <li>Du lundi au jeudi de 9h à 21h30</li>
+        <li>Le vendredi de 9h à 21h</li>
+        <li>Le samedi et le dimanche de 9h à 20h</li>
+        <p>Tel. :<a>03.20.47.03.03</a></p>
+      </ul>
+    </section>
+      <!-- ADRESSE-->
+    <section class="add_nopuce">
+      <h3>S'y rendre</h3>
+      <ul>
+        <li>51 rue de la Cimaise</li>
+        <li>Villeneuve d'Ascq</li>
+        <p>»<a href="http://www.oceaclub.com/acces.php">Accès</a></p>
+      </ul>
+    </section>
+  </div>
+</main>
+
+  <!-- 
+  ~~~~~~~~~~~~~~~~~~| End Main|~~~~~~~~~~~~~~~~~~~~~
+  -->
+
+
+
+  <!-- 
+  ~~~~~~~~~~~~~~~~~~| Star Footer|~~~~~~~~~~~~~~~~~~~~~
+  -->
+<footer>
+  <!-- ADDRESS-->
+  <div class="contener_footer">
+  <section>
+    <h2>Ocea</h2>
+    <ul>
+      <li>51 rue de la Cimaise</li>
+      <li>59650 Villeneuve d'Ascq</li>
+      <li>03.20.47.03.03</li>
+      <li>accueil@oceaclub.com</li>
+    </ul>
+  </section>
+  <!-- OCEA SPORT INFO-->
+  <section>
+    <h2>Ocea Sport</h2> 
+    <ul>
+      <li><a href="http://www.oceaclub.com/planning.php">Le planning</a></li>
+      <li><a href="http://www.oceaclub.com/cours.php">Les cours</a></li>
+      <li><a href="http://www.oceaclub.com/tarifs.php">Les tarifs</a></li>
+      <li><a href="http://www.oceaclub.com/decouverte.php">L'offre découverte</a></li>
+      <li><a href="http://www.oceaclub.com/badminton/">Réserver un cours de badminton</a></li>
+      <li><a href="http://www.oceaclub.com/box/">Réserver un atelier</a></li>
+      <li><a href="http://ocea.maresiliation.fr/">Résilier</a></li>
+    </ul>
+  </section>
+  <!-- ESTHETHIQUE SECTION-->
+  <section>
+    <h2>Ocea Esthétique</h2>
+    <ul>
+      <li><a href="http://www.oceaclub.com/esthetique.php?c=1">Solutions Beauté VIsage</a></li>
+      <li><a href="http://www.oceaclub.com/esthetique.php?c=2">Solutions Beauté Corps</a></li>
+      <li><a href="http://www.oceaclub.com/esthetique.php?c=3">Expériences Payot</a></li>
+      <li><a href="http://www.oceaclub.com/esthetique.php?c=4">Modelages "Bien-Etre"</a></li>
+      <li><a href="http://www.oceaclub.com/esthetique.php?c=5">Fomules Complètes "Forfaits"</a></li>
+      <li><a href="http://www.oceaclub.com/esthetique.php?c=6">Mains, Pieds et Ongles</a></li>
+      <li><a href="http://www.oceaclub.com/esthetique.php?c=7">Épilations</a></li>
+      <li><a href="http://www.oceaclub.com/esthetique.php?c=8">Maquillage, Beauté du regard</a></li>
+    </ul>
+  </section>
+  <!-- SUN SECTION-->
+  <section>
+    <h2>Ocea Sun</h2>
+    <ul>
+      <li><a href="http://www.oceaclub.com/machines.php">Les machines</a></li>
+      <li><a href="http://www.oceaclub.com/tarifs_sun.php">Les tarifs</a></li>
+      <li><a href="http://www.oceaclub.com/produits_sun.php">Les produits</a></li>
+      <li><a href="http://www.oceaclub.com/sun/">Réserver une séance</a></li>
+    </ul>
+    </section>
+  </div>
+      <hr>
+<!--
+      <div>
+      <p>© 2018 Oxygene Studio -</p>
+      <a href="http://www.oceaclub.com/ml.php">Mentions Légales</a>
+    </div>
+-->
+</footer>
+
+
+  <!-- 
+  ~~~~~~~~~~~~~~~~~~| End Footer|~~~~~~~~~~~~~~~~~~~~~
+  -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
